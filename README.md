@@ -12,7 +12,8 @@ Resolving/minimizing these issues can help:
 4. Strengthen competitive advantage by properly managing cancellation incidents
 
 ## Dataset
-The dataset contains hotel booking history data from July 2015 to August 2017, with a total of 119,390 observation records across 35 columns.
+The dataset contains hotel booking history data between the 1st of July 2015 and 31st of August 2017, with a total of 119,390 observation records across 35 columns.
+Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
 
 ## Methodology
 - **Data Preprocessing:** Validating missing values, duplicate values, handling outliers and ensuring correct data types.
@@ -40,11 +41,8 @@ The dataset contains hotel booking history data from July 2015 to August 2017, w
 
 ## Contact
 **Author: Hudzaifah Rizqi Kamil**
-
-**Email:** hudzaifahrizqikamil@gmail.com
-
-**LinkedIn:** https://www.linkedin.com/in/hudzaifahrizqikamil
-
-**GitHub:** https://github.com/HudzaifahRizqi
+- **Email:** hudzaifahrizqikamil@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/hudzaifahrizqikamil
+- **GitHub:** https://github.com/HudzaifahRizqi
 
 Thank you for exploring this project! Suggestions, Feedback and contributions are welcome. Feel free to customize it further to suit your preferences!
