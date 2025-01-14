@@ -13,7 +13,7 @@ Resolving/minimizing these issues can help:
 
 ## Dataset
 The dataset contains hotel booking history data between the 1st of July 2015 and 31st of August 2017, with a total of 119,390 observation records across 35 columns.
-Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
+- Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
 
 ## Methodology
 - **Data Preprocessing:** Validating missing values, duplicate values, handling outliers and ensuring correct data types.
