@@ -1,4 +1,4 @@
-# Hotel-Reservation-Cancellation
+# Hotel Reservation Cancellation
 This repository is the Final Data Science Project at Dibimbing.id. This project contains the results of analysis of the dataset of hotel booking/reservation history observations related to predictions of prospective guests who cancel reservations. This analysis involves Exploratory Data Analysis (EDA) and Machine Learning Classification.
 
 ## Project Goals
@@ -40,8 +40,11 @@ The dataset contains hotel booking history data from July 2015 to August 2017, w
 
 ## Contact
 **Author: Hudzaifah Rizqi Kamil**
+
 **Email:** hudzaifahrizqikamil@gmail.com
+
 **LinkedIn:** https://www.linkedin.com/in/hudzaifahrizqikamil
+
 **GitHub:** https://github.com/HudzaifahRizqi
 
 Thank you for exploring this project! Suggestions, Feedback and contributions are welcome. Feel free to customize it further to suit your preferences!
