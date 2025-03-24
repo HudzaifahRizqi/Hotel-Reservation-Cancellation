@@ -16,17 +16,20 @@ The dataset contains hotel booking history data between the 1st of July 2015 and
 - Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
 
 ## Methodology
-- **Data Preprocessing:** Validating missing values, duplicate values, handling outliers and ensuring correct data types.
+- **Data Preprocessing:** Validating missing values, duplicate values, handling outliers, ensuring correct data types and remove extreme/anomalous data.
 - **Feature Engineering:** feature selection, split dataset, categorical encoding, standardization, converting training data into numpy arrays
 - **Model Evaluation:** The matrices used for the classification model are Precision, Recall, F1-Score, and Confusion Matrix. Recall is preferred to measure the proportion of positive data (cancelled reservations) that are actually classified as positive. This is intended to address potential revenue loss, prevent a decline in hotel reputation and staff performance and increased costs incurred by the hotel from changes in operational plans due to sudden cancellations. Accuracy is considered less relevant because the data is unbalanced (the number of cancellations is much less than the majority of non-cancellations)
 
-## Result
-- The prediction results of hotel reservation cancellation targets are more easily recognized through the Random Forest Model with a prediction accuracy of 79% (Recall).
+## Result (Last Update)
+- The prediction results of hotel reservation cancellation targets are more easily recognized through the Random Forest, XGBoost and LightGBM Model with a prediction accuracy above 90 percent.
 - The results of Parameter Tuning from each model have been proven to be able to improve the prediction results for reservation cancellations on the following testing data (Recall):
-1. Logistic Regression: 0.58 (Baseline)
-2. Decision Forest: 0.73
-3. **Random Forest: 0.79**
-4. Support Vector Machine: 0.70
+1. Logistic Regression : 0.78 (Baseline)
+2. Decision Forest: 0.88
+3. **Random Forest: 0.90**
+4. Support Vector Machine: 0.83
+5. Neural Network (MLP): 0.85
+6. **XGBoost: 0.95**
+7. **LightGBM: 0.90**
 - Key features based on model results for predicting reservation cancellations are more directed at the following factors:
 1. **Availability of facilities:** required_car_parking_spaces and total_of_special_requests.
 2. **Booking History Management:** reservation_status_date, days_in_waiting_list and is_repeated_guest.
